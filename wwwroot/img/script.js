@@ -1,4 +1,4 @@
-﻿var toggleMenu = document.getElementById('toggle-menu');
+var toggleMenu = document.getElementById('toggle-menu');
 var menuItems = document.getElementById('menu-items');
 
 toggleMenu.addEventListener('click', function () {

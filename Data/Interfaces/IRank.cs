@@ -4,6 +4,6 @@ namespace SamokatTask.Data.Interfaces
 {
     public interface IRank
     {
-        IEnumerable<Rank> ranks { get; }
+        IEnumerable<Rank> Ranks { get; }
     }
 }

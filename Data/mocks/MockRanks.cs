@@ -6,7 +6,7 @@ namespace SamokatTask.Data.mocks
 {
     public class MockRanks : IRank
     {
-        public IEnumerable<Rank> ranks {
+        public IEnumerable<Rank> Ranks {
             get {
                 return new List<Rank> {
                     new Rank
@@ -14,35 +14,35 @@ namespace SamokatTask.Data.mocks
                         Id = 1,
                         Img = "",
                         Name = "Иванов Иван Иванович",
-                        Level = 9
+                        Level = "Высшее образование"
                     },
                     new Rank
                     {
                         Id = 2,
                         Img = "",
                         Name = "Сидоров Сегрей Сергеевич",
-                        Level = 8
+                        Level = "Высшее образование"
                     },
                     new Rank
                     {
                         Id = 3,
                         Img = "",
                         Name = "Хавелев Илья Викторович",
-                        Level = 7
+                        Level = "Высшее образование"
                     },
                     new Rank
                     {
                         Id = 4,
                         Img = "",
                         Name = "Даниленко Фёдор Андреевич",
-                        Level= 6
+                        Level= "Высшее образование"
                     },
                     new Rank
                     {
                         Id = 5,
                         Img = "",
                         Name = "Базаев Роман Георгиевич",
-                        Level= 5
+                        Level= "Высшее образование"
                     }
                 };
             }
